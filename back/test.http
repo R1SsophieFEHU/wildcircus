@@ -1,0 +1,15 @@
+### GET a list of artists
+GET http://localhost:8000/artists
+
+### GET a list of representations
+GET http://localhost:8000/representations
+
+### POST new info for newsletter
+POST http://localhost:8000/newsletter
+Content-Type: application/json
+
+{
+  "email": "sophie.trochain@gmail.com",
+  "lastname" : "TROCHAIN",
+  "firstname" : "Sophie"
+}
