@@ -75,7 +75,9 @@ class NewsLetter extends React.Component {
               required>                
               </input>
 
-              <button type="submit" onClick = {this.sendEmail}>Send</button>
+              <button 
+              style={{marginTop: "1rem"}}
+              type="submit" onClick = {this.sendEmail}>Send</button>
             </div>
           </form>
 
