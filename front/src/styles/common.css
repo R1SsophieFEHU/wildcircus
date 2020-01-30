@@ -3,12 +3,18 @@
 :root {
   font-family: 'Open Sans', sans-serif;
   font-size: 2vh;
-  color: #27272a;
+  color: white;
 }
 
 body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+  width: 100%;
   font-family: 'Open Sans', sans-serif;
+  background-color: #27272a;
 }
+
 
 .height\:viewport-100 {
   height: 100vh;
@@ -44,20 +50,16 @@ button {
   background-color: rgb(179, 177, 177);
   border: 1px solid var(--primary-color);
   border-radius: 10px;
-  color: var(--primary-color);
-
+  color: black;
 }
 
 label {
   font-weight: bold;
 }
-
-.title {
-  display: block;
-  font-size: 20px;
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: normal;
+.header {
+  background-image: url('http://deus-exmachina.fr/wp-content/uploads/2014/11/fond-decran-galile%CC%81o2.jpg');
+  height: 30%;
+  width: 100%;
+  text-align: center;
+  font-size: 5rem;
 }
