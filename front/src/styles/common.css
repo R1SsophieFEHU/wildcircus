@@ -56,10 +56,18 @@ button {
 label {
   font-weight: bold;
 }
+
 .header {
   background-image: url('http://deus-exmachina.fr/wp-content/uploads/2014/11/fond-decran-galile%CC%81o2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 30%;
   width: 100%;
   text-align: center;
   font-size: 5rem;
+}
+
+.paragraph {
+  width: 80%;
+  margin: 10%;
 }
